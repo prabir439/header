@@ -1,0 +1,66 @@
+@import url("all.css");
+@import url("normalize.css");
+h1,h2,h3,p,figure,figcaption,div,section{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:1170px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+body{
+    background-color: #E8F0F3;
+}
+/*===================================================================================================================*/
+header{
+
+}
+header section ul li {
+    display: inline-block;
+}
+header>section>.container{
+    overflow: hidden;
+}
+header>section>.container>ul:first-child{
+    float: left;
+}
+header>section>.container>ul:last-child{
+    float: right;
+}
+header>section>.container>ul:first-child>li>a{
+    padding: 0 20px;
+}
+header>section>.container>ul:last-child>li>a{
+    padding: 0 10px;
+}
+header> section:last-child{
+    background-color: white;
+    width:800px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 0 10px 10px 0;
+    padding-top: 15px;
+}
+
+header>section>figure{
+    float: left;
+}
+header>section>nav{
+    float: left;
+}
+header>section>nav>ul>li>a{
+    padding: 0 10px;
+}
+header>section>figure>span{
+    float: left;
+}
+header>section>figure>figcaption{
+    float: left;
+    margin:3px 5px;
+}
+

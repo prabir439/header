@@ -1,0 +1,95 @@
+@import url("all.css");
+@import url("normalize.css");
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+font-family: 'Lobster', cursive;
+
+/*global css*/
+h1,h2,h3,h4,h5,h6,figure,span{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+div,section{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+/*global css end*/
+
+header>section:first-child{
+background-color: #666666;
+    color: #e6e6e6;
+}
+
+
+
+
+header>section:first-child{
+    overflow: hidden;
+}
+header>section>.container>figure{
+    float: left;
+    width: 200px;
+}
+header>section>.container>nav{
+    float: right;
+
+}
+header>section:last-child{
+    clear: both;
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+
+header>section>.container>nav>ul>li{
+    display: inline-block;
+    padding-right: 20px;
+    text-transform: uppercase;
+
+}
+header>section:last-child>.container>nav>ul>li{
+    padding :0 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-top: 10px;
+
+}
+
+header>section:last-child>.container>nav>ul>li:last-child{
+    padding-right: 0;
+}
+header>section:last-child>.container>nav>ul>li:nth-last-child(2){
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+button{
+    height: 33px;
+}
+
+header>section:last-child>.container>figure{
+    margin: 0;
+}
+header>section>.container>nav>ul>li>a{
+    color:#e6e6e6;
+}
+header>section:last-child>.container>nav>ul>li>a{
+    color:black;
+}
+header>section:last-child>.container>nav>ul>li>a:hover{
+    padding-bottom: 32px;
+    border-bottom: 5px solid #fa8cb5;
+    color: #fa8cb5;
+}

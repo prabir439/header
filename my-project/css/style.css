@@ -1,0 +1,82 @@
+@import "all.css";
+@import "Footer-with-button-logo.css";
+@import "main.css";
+@import "util.css";
+@import "res.css";
+
+
+#catagories{
+    background-color: #F9FCFF;
+}
+
+
+.card:hover{
+    background-color:#F9FCFF;
+
+
+    color:#35BC70;
+    transition-duration:.2s;
+
+    -webkit-box-shadow: -1px 0px 14px 0px rgba(47,37,230,0.69);
+    -moz-box-shadow: -1px 0px 14px 0px rgba(47,37,230,0.69);
+    box-shadow: -1px 0px 14px 0px rgba(47,37,230,0.69)
+
+}
+.card-deck>.card:hover{
+    color: #2718ff;
+
+
+}
+.card-deck>.card{
+    -webkit-box-shadow: 2px 11px 21px -14px rgba(1,1,10,0.84);
+    -moz-box-shadow: 2px 11px 21px -14px rgba(1,1,10,0.84);
+    box-shadow: 2px 11px 21px -14px rgba(1,1,10,0.84);
+    opacity: .8;
+}
+
+#job{
+    background-color: #a3dbff;
+    padding: 1.14rem;
+}
+
+.container .jumbotron{
+    background-color: #F9FCFF;!important
+    -webkit-box-shadow: -1px 0px 14px 0px rgba(47,37,230,0.69);
+    -moz-box-shadow: -1px 0px 14px 0px rgba(47,37,230,0.69);
+    box-shadow: -1px 0px 14px 0px rgba(47,37,230,0.69)
+
+}
+.jumbotron{
+    -webkit-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.97);
+    -moz-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.97);
+    box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.97);
+}
+header{
+    -webkit-box-shadow: 0px 1px 16px -1px rgba(142,142,242,1);
+    -moz-box-shadow: 0px 1px 16px -1px rgba(142,142,242,1);
+    box-shadow: 0px 1px 16px -1px rgba(142,142,242,1);
+    opacity: .7;
+
+
+}
+ul li {
+    color: black;
+    font-weight:600;
+}
+ul li a:hover{
+    color: #1a1ca5;
+    padding: 5px;
+}
+/*style for job details*/
+#left_side{
+
+   border: 2px solid #abdde5;
+    height: 550px;
+
+}
+#right_side {
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 2px 7px -1px rgba(18, 17, 18, 1);
+    padding: 1.2rem;
+    height: 350px;
+}
